@@ -1,0 +1,285 @@
+
+input{
+    padding:5px 2px 5px 0; 
+    width: 8%;
+    margin-top: 20px;
+}
+
+
+
+.desc{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: 'Hind Guntur', sans-serif;
+    color:#056CF2;
+    font-size: 1.2rem;
+}
+
+.caract{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: 'Hind Guntur', sans-serif;
+    color:#056CF2;
+    font-size: 1.2rem;
+}
+
+.titulo{
+    font-family: 'Hind Guntur', sans-serif;
+    color:#056CF2;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.item{
+    margin-top: 20px;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.desc2{
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+label{
+    font-family: 'Hind Guntur', sans-serif;
+    color:#056CF2;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.color{
+    font-family: 'Hind Guntur', sans-serif;
+    color:#056CF2;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.color select{
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: left;
+    font-size: 1rem;
+}
+
+
+.env{
+    padding:5px 15px;
+    width: 25%;
+    margin-top: 30px;
+    background-color:#056cf2; 
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 1rem;
+    margin-left: 10px;
+    color: white;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.env:hover{
+    background: #033E8C;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+     
+
+}
+
+
+
+
+@media (max-width: 480px){
+    
+    
+    img{
+        width:280px;
+    }
+
+    
+    .div-img{
+        width: 90%;
+        text-align: center;
+    }
+
+    .div-descripcion{
+        border-left: 1px solid white;
+        width: 100%;
+        
+       
+       
+    
+    }
+
+    .div-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .env{
+        width: 100%;
+        padding:5px 5px;
+        font-size: 0.9rem;
+    }
+
+    input{
+        width: 35px;
+    }
+
+    .icon-menu{
+          margin-right: 15px;
+    }
+
+
+   
+
+}
+
+
+
+
+@media(max-width:600px){
+    img{
+        width:350px;
+    }
+
+    
+    .div-img{
+        width: 90%;
+        text-align: center;
+    }
+
+    .div-descripcion{
+        border-left: 1px solid white;
+        width: 70%;
+        margin-left:30px;
+       
+    
+    }
+
+    .div-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .env{
+        width: 60%;
+    }
+
+    input{
+        width: 35px;
+    }
+
+    
+    .icon-menu{
+        margin-right: 10px;
+  }
+
+}
+
+
+@media(min-width:600px){
+    img{
+        width:450px;
+    }
+
+    
+    .div-img{
+        width: 90%;
+        text-align: center;
+    }
+
+    .div-descripcion{
+        border-left: 1px solid white;
+        width: 80%;
+        margin-left:40px;
+       
+    
+    }
+
+    .div-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .env{
+        width: 50%;
+    }
+
+    input{
+        width: 35px;
+    }
+
+    
+    .icon-menu{
+        margin-right: 5px;
+  }
+
+}
+
+@media (min-width:1000px){
+    img{
+        width: 450px;
+    }
+    
+    .div-img{
+        width: 40%;
+       
+        
+    }
+
+    .div-descripcion{
+        border-left: 1px solid white;
+        width: 60%;
+        border-left: 1px solid rgba(0, 0, 0, 0.161);
+        
+       
+    
+    }
+
+    .div-container{
+        display: inline-flex;
+        width: 100%;
+        height: auto;
+        margin:100px auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+
+    }
+
+    .env{
+        width: 40%;
+    }
+
+    input{
+        width: 35px;
+    }
+
+    .icon-menu{
+        margin-right: 5px;
+  }
+
+
+
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/aplicacion-de-bandeja-de-entrada-de-correo.png" />
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <a href="index.html" target="_blank" ><h1 class="icon-cubes titulo-logo-rest" >PuntoTec</h1></a>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="icon-menu"></label>
+            <nav class="menu">
+                <a href="index.html" target="_blank">Inicio</a>
+                <a href="informatica.html" target="_blank">Informatica</a>
+                <a href="accesorios.html" target="_blank">Accesorios</a>
+                <a href="gamer.html" target="_blank">Gamer</a>
+                <a href="varios.html" target="_blank">Varios</a>
+                <a href="contacto.html" target="_blank">Contacto</a>
+                <a href="inventario.html" target="_blank">Inventario</a>
+            </nav>
+        </div> 
+     </header>
+     <main name="formulario">
+      <div class="contenedor">
+        <form id="formulario" onsubmit="return validarFormulario()" action="">
+            <label for="nombreapellido">Nombre y Apellido:</label>
+            <input type="text" id="nombreapellido" name="nombreapellido" class="input-padron" placeholder="Nombre y Apellido">
+            
+            <label for="correoelectronico">Correo Electronico:</label>
+            <input type="text" id="correoelectronico" name="correoelectronico" class="input-padron"  placeholder="Email@dominio.com">
+            
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono" class="input-padron" placeholder="(xxxx)-xxxxxxx">
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="70" rows="10" class="input-padron">Escriba su mensaje aqui</textarea>
+            
+            
+            <p>¿Como le gustaria que lo contactemos?</p>
+            
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            
+            
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+            
+            
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+            
+            <p>¿En cual horario prefiere ser atendido?</p>
+            
+            <select name="" id="">
+             <option value="">Mañana</option>
+             <option value="">Tarde</option>
+             <option value="">Noche</option>
+            </select>
+           
+           
+            
+            <label class="chekbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de PuntoTec?</label>
+            
+            <input type="submit" value="ENVIAR FORMULARIO" class="enviar">
+        </form>
+        
+        
+         <div class="informes">
+            <section class="horarios">
+                  <table>
+                      <thead>
+                        <tr>
+                           <th>Dia</th>
+                           <th>Horario</th>
+                        </tr>
+                        </thead>
+               
+                        <tbody>
+                        <tr>
+                           <td>Lunes</td>
+                           <td>09h-18h</td>
+                        </tr>
+                        <tr>
+                           <td>Martes</td>
+                           <td>08h-19h</td>
+                        </tr>
+                        <tr>
+                           <td>Miercoles</td>
+                           <td>08h-20h</td>
+                        </tr>
+                        <tr>
+                           <td>Jueves</td>
+                           <td>10h-18h</td>
+                        </tr>
+                        <tr>
+                           <td>Viernes</td>
+                           <td>10h-18h</td>
+                        </tr>
+                        </tbody>
+                  
+                  </table>
+            </section>
+            
+            <section class="ubicacion">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26722.66391948786!2d-60.533850548925734!3d-33.15288382468786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b70bbe1083611f%3A0x3afbd6de80827c58!2sArroyo%20Seco%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1685169570057!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+            </section>
+         </div>
+     </div>
+     </main>
+     <script src="JS/validacion.js"></script>
+     <footer>
+            <div class="contenedor">
+               
+                  <div class="sociales">
+                     <h3>Nuestras redes:</h3>
+                     <a href="#" class="icon-facebook-squared">Facebook</a><br>
+                     <a href="#" class="icon-instagram">Instagram</a><br>
+                     <a href="#" class="icon-twitter-squared">Twitter</a>
+                  </div>
+              <p class="copy">&copy; 2023| PuntoTec |<span> Desarrollado por: Ruth Vaccari</span></p>
+           </div>
+
+    </footer>
+   </body>
+</html>

@@ -1,0 +1,46 @@
+.copy{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    height:auto;
+}
+
+.sociales{
+    width: 100%;
+    text-align:center;
+    font: 28px;
+    
+}
+
+.sociales a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Hind Guntur', sans-serif;
+    padding: 20px;
+}
+
+footer{
+    width: 100vw;
+    background-color: #333;
+    
+}
+
+.sociales h3{
+     font-family: 'Hind Guntur', sans-serif;
+     color: white;
+}
+
+.sociales a:hover{
+    color:#056CF2;
+}
+
+span{
+    font-size: 15px;
+}

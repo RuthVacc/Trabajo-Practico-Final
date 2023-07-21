@@ -1,0 +1,147 @@
+.titulo-destacados {
+    color: white;
+    text-align: center;
+    background-color:#333;
+    font-size: 1.5em;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding:5px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+.contenedor-destacados{
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: white;
+
+}
+
+.tarjetas{
+    background: white;
+    width: 220px;
+    height: 300px;
+    margin:30px 15px;
+
+}
+
+.img-tarjetas{
+   background-color: white; 
+   height:150px ;
+   margin-bottom: 15px;
+   background-size: cover;
+   border: 1px solid rgba(51, 51, 51,0.18);
+
+   
+   
+}
+
+.tarjeta-1{
+    background-image: url(/imagenes/reloj-suono-kids-510x319-1.jpg);
+}
+
+.tarjeta-2{
+    background-image: url(/imagenes/a22masc-510x319.jpg);
+}
+
+.tarjeta-3{
+    background-image: url(/imagenes/parlante-pc-suono2-510x319-1.jpg);
+}
+
+.tarjeta-4{
+    background-image: url(/imagenes/velador-luna-510x319-1.jpg);
+}
+
+.tarjeta-5{
+    background-image: url(/imagenes/maxxa-a17b-510x319-1.jpg);
+}
+
+
+.tarjeta-6{
+    background-image: url(/imagenes/lentes-realidad-virtual-510x319-1.jpg );
+}
+
+.tarjeta-7{
+    background-image: url(/imagenes/karaoke-rgb-suono2-510x319-1.jpg);
+}
+
+
+.tarjeta-8{
+    background-image: url(/imagenes/radio-retro-mascota2-510x319-1.jpg);
+}
+
+
+.tarjeta-9{
+    background-image: url(/imagenes/suono-macaron2.jpg);
+}
+
+
+.tarjeta-10{
+    background-image: url(/imagenes/radio-vintage.jpg);
+}
+
+
+
+
+.tarjetas p{
+    padding: 5px ;
+    font-family: 'Hind Guntur', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.img-tarjetas:hover{
+    color: white;
+    cursor: auto;
+    transform: scale(1.3); 
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    transition: all 1s ease;
+    
+
+    
+    
+}
+
+.tarjetas a{
+    text-decoration: none;
+    color:black
+}
+
+.tarjetas a:hover {
+    color:#056CF2;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    .titulo-destacados{
+        margin-top:40px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .titulo-destacados{
+        margin-top:40px;
+    }
+}
+
+@media(min-width:767px){
+    .titulo-destacados{
+        margin-top:100px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .titulo-destacados{
+        margin-top: 100px;
+     }
+
+
+}
+

@@ -1,0 +1,104 @@
+#cabecera h2{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 28px;
+   
+}
+
+#cabecera{
+    margin-top: 50px;
+    position: relative;
+}
+
+#cabecera img{
+    width: 100%;
+    height: 100%;
+}
+
+#cabecera .contenedor{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+
+.slogan{
+   
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left:6px ;
+}
+
+
+@media(max-width:480px){
+    #cabecera h2{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    #cabecera .slogan{
+        font-size: 32px;
+    }
+    #cabecera{
+        height: 250px;
+        
+     }
+}
+
+
+
+@media(min-width:480px){
+    #cabecera h2{
+        font-size: 40px;
+        margin-top: 85px;
+    }
+    #cabecera .slogan{
+        font-size: 32px;
+    }
+    #cabecera{
+        height: 250px;
+        
+     }
+}
+
+@media(min-width:767px){
+    #cabecera{
+        height: 250px;
+        
+     }
+
+    #cabecera img{
+        height: 300px; 
+        overflow: hidden;
+        margin-top: 0;
+
+    }
+
+    #cabecera h2{
+        margin-top: 190px;
+    }
+
+
+
+}
+
+@media(min-width:1024px){
+    
+    #cabecera img{
+        height: 300px; 
+        overflow: hidden;
+        margin-top: 0;
+
+    }
+
+    #cabecera{
+        height:250px;
+        
+     }
+
+     #cabecera h2{
+        margin-top: 200px;
+    }
+}
+
+

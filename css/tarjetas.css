@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bruno+Ace&family=Hind+Guntur&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Roboto:wght@100;300;500&display=swap');
+
+
+.titulo-categorias{
+    color: white;
+    text-align: center;
+    background-color:#333;
+    font-size: 1.5em;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 5px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+
+#contenedor-tarjetas{
+    width: 100%;
+    max-width: 1300px;
+    height: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+#contenedor-tarjetas .card{
+    width: 330px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 30px;
+    text-align: center;
+    transition: all 0.10s;
+}
+
+#contenedor-tarjetas .card:hover{
+    cursor: pointer;
+    transform: scale(1.2) ;
+    transition: all 1s ease;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+#contenedor-tarjetas .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+#contenedor-tarjetas .card p{
+    padding:  10px 10px 15px;
+    font-weight: bold;
+    font-family: 'Hind Guntur', sans-serif;
+    color:black
+}
+
+#contenedor-tarjetas .card a{
+    text-decoration: none;
+}
+
+#contenedor-tarjetas .card p:hover{
+    color:#056CF2;
+}
+
+
+img{
+    margin-top: 0;
+}
+
+
+
+.caja{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.titulo-logo-rest:hover{
+    color: #056CF2;
+}
+
+.titulo-logo-rest{
+    float: left;
+    font-family: 'Bruno Ace SC', cursive;
+}

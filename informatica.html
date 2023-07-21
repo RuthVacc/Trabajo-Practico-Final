@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTICULOS INFORMATICA</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/aplicacion-de-transmision-de-television.png" />
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/tarjetas.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <a href="index.html" target="_blank" ><h1 class="icon-cubes titulo-logo-rest" >PuntoTec</h1></a>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="icon-menu"></label>
+            <nav class="menu">
+                <a href="index.html" target="_blank">Inicio</a>
+                <a href="informatica.html" target="_blank">Informatica</a>
+                <a href="accesorios.html" target="_blank">Accesorios</a>
+                <a href="gamer.html" target="_blank">Gamer</a>
+                <a href="varios.html" target="_blank">Varios</a>
+                <a href="contacto.html" target="_blank">Contacto</a>
+                <a href="inventario.html" target="_blank">Inventario</a>
+            </nav>
+           </div> 
+    </header>
+    <main>
+        <h3 class="titulo-categorias">INFORMATICA</h3>
+        
+        <section class="caja">
+            
+            <div id="contenedor-tarjetas"></div>
+            
+        </section>
+    </main>   
+        <script>
+          
+            const URL = "https://ruthvac.pythonanywhere.com/"
+
+
+            fetch(URL + 'productos')
+                .then(function (response) {
+                    if (response.ok) {
+                        return response.json(); 
+                    } else {
+                        throw new Error('Error al obtener los productos.');
+                    }
+                })
+                .then(function (data) {
+                    
+                    console.log(data)
+                    var seccion= document.getElementById("contenedor-tarjetas");
+                    
+                    
+                    data.forEach(function (producto) {
+                        if (producto.categoria == "INFORMATICA"){
+                        var tarjetas=document.createElement("div");
+                        tarjetas.className="card"
+                        
+                        tarjetas.innerHTML =`
+                                <img src="imagenes/${producto.imagen}">
+                                <a href="#" target="_blank"><p>${producto.descripcion}</p></a>
+                            `
+                        seccion.append(tarjetas);
+
+                        }
+                    });
+                })
+                
+                .catch(function (error) {
+                alert('Error al obtener los productos.');
+                });
+
+        </script>
+        
+    <footer>
+        <div class="contenedor">
+          <div class="sociales">
+                <h3>Nuestras redes:</h3>
+                <a href="#" class="icon-facebook-squared">Facebook</a><br>
+                <a href="#" class="icon-instagram">Instagram</a><br>
+                <a href="#" class="icon-twitter-squared">Twitter</a>
+           </div>
+           <p class="copy">&copy; 2023| PuntoTec |<span> Desarrollado por: Ruth Vaccari</span></p>
+        </div>
+    </footer>
+   
+
+</body>
+</html>
+    
+

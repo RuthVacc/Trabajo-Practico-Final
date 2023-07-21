@@ -1,0 +1,386 @@
+form{
+    margin: 80px 0;
+    
+    
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    font-family: 'Hind Guntur', sans-serif;
+
+}
+
+
+.input-padron{ 
+    display:block;
+    margin: 0 0 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right:25px;
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+
+.chekbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif;
+
+}
+
+.enviar:hover{
+    background: #033E8C;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+     
+
+}
+
+table{
+    margin: 40px;
+    text-align: left;
+
+
+}
+
+thead{
+    background: #333;
+    color: white;
+    font-weight: bolder;
+}
+
+td, th{
+    border: 1px solid rgba(51, 51, 51,0.19) ;
+    padding: 8px 15px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+
+.informes{
+   display: flex;
+   flex-direction: row;
+   height: 600px;
+   
+  
+}
+
+.horarios{
+   width:20%;
+}
+
+.horarios table{
+   margin:0 auto;
+}
+
+
+
+.ubicacion{
+   width:50%;
+   text-align: center;
+  
+}
+
+
+
+@media(max-width:480px){
+     .enviar{
+        font-size:15px ;
+        width: 80%;
+        margin-left: 5px;
+        
+     }
+
+     .input-padron{
+        width: 90%;
+     }
+
+     form{
+        margin-left: 5px;
+        margin-right: 5px;
+     }
+     
+
+     .informes{
+      flex-direction: column;
+      height: auto;
+
+     }
+
+     .horarios{
+      width:100%;
+      height:350px;
+      
+     }
+
+     .ubicacion{
+      width: 70%;
+      margin:5px 5px 5px 5px;
+      margin-bottom: 20px;
+     }
+
+     .mapa{
+      width:40px;
+      height: 40px;
+      margin-bottom: 20px;
+     }
+
+     
+}
+
+@media(min-width:480px){
+   .informes{
+      flex-direction: column;
+      height: auto;
+
+     }
+
+     .horarios{
+      width:100%;
+      height:350px;
+      
+     }
+
+     .ubicacion{
+      width: 100%;
+      margin: 5px 5px 5px 5px;
+      margin-bottom: 20px;
+     }
+
+     .mapa{
+      width:75px;
+      height: 75px;
+      margin-bottom: 20px;
+     }
+}
+
+
+@media(max-width:600px){
+    .enviar{
+       font-size:15px ;
+       width: 60%;
+       margin-left: 5px;
+       
+    }
+
+    .input-padron{
+       width: 90%;
+    }
+
+    form{
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+
+    .informes{
+      flex-direction: column;
+      height: auto;
+
+     }
+
+     .horarios{
+      width:100%;
+      height:350px;
+      
+     }
+
+     .ubicacion{
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+     }
+
+     .mapa{
+      width: 450px;
+      height: 250px;
+      margin-bottom: 20px;
+     }
+}
+
+@media(min-width:600px){
+    .enviar{
+       font-size:15px ;
+       width: 50%;
+       margin-left: 5px;
+       
+    }
+
+    .input-padron{
+       width: 60%;
+    }
+
+    form{
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+
+     .informes{
+      flex-direction: column;
+      height: auto;
+
+     }
+
+     .horarios{
+      width:100%;
+      height:350px;
+      
+     }
+
+     .ubicacion{
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+     }
+
+     .mapa{
+      width: 580px;
+      height: 450px;
+      margin-bottom: 20px;
+     }
+
+
+}
+
+@media(min-width:750px){
+    .enviar{
+       font-size:15px ;
+       width: 40%;
+       margin-left: 5px;
+       
+    }
+
+    .input-padron{
+       width: 50%;
+    }
+
+    form{
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+
+    .informes{
+      flex-direction: row;
+      height: auto;
+      width: 100%;
+
+     }
+
+     .horarios{
+      width:35%;
+      height:350px;
+      
+     }
+
+     .ubicacion{
+      width: 65%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+     }
+
+     .mapa{
+      width: 450px;
+      height: 250px;
+      margin-bottom: 20px;
+     }
+    
+}
+
+
+@media(min-width:1000px){
+    .enviar{
+       font-size:15px ;
+       width: 40%;
+       margin-left: 5px;
+       
+    }
+
+    .input-padron{
+       width: 40%;
+    }
+
+    form{
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+
+    .informes{
+      flex-direction: row;
+      height: auto;
+      width: 100%;
+
+     }
+
+     .horarios{
+      width:35%;
+      height:450px;
+      
+     }
+
+     .ubicacion{
+      width: 65%;
+      margin: 0 auto;
+      
+     }
+
+     .mapa{
+      width: 600px;
+      height: 450px;
+      margin-right:25px;
+     }
+    
+}
+
+
+@media(min-width:1400px){
+    .informes{
+      flex-direction: row;
+      height: auto;
+      width: 100%;
+
+     }
+
+     .horarios{
+      width:35%;
+      height:450px;
+      
+     }
+
+     .ubicacion{
+      width: 65%;
+      margin: 0 auto;
+     
+     }
+
+     .mapa{
+      width: 840px;
+      height: 450px;
+      margin-right:25px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+

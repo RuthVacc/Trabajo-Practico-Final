@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bruno+Ace&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&family=Bad+Script&family=Bruno+Ace&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bruno+Ace&family=Hind+Guntur&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Roboto:wght@100;300;500&display=swap');
+
+
+
+@import url(menu.css);
+@import url(cabecera.css);
+@import url(destacados.css);
+@import url(informatica.css);
+@import url(accesorios.css);
+@import url(footer.css);
+@import url(gamer.css);
+@import url(varios.css);
+@import url(contacto.css);
+@import url(productos.css);
+
+
+
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo-logo-rest:hover{
+    color: #056CF2;
+}
+
+.titulo-logo-rest{
+    float: left;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.titulo-logo{
+    float: left;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.icon-cubes{
+    color: white;
+    margin-top: 5px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+#tabla-menu{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+#tabla-menu .fila-menu, .contenedor-centrado {
+    border:none;
+}
+
+
+#principal{
+    display:block;
+    width: 100%;
+    justify-content: center; 
+}
+
+
+
+.titulo-inventario{
+    color: white;
+    text-align: center;
+    background-color:#333;
+    font-size: 25px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding:5px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+/*-----------------tabla eliminar, tabla lista productos y horarios-------------------*/
+table,td,th{
+    font-family: 'Hind Guntur', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+    border-collapse: collapse;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.inventario{
+    font-family: 'Hind Guntur', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size:1.5em;
+    margin-bottom: 10px;
+}
+
+/*--------------------------formulario agregar productos----------------------------*/
+
+#Agregar-productos {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+#Agregar-productos label{
+
+    display: block;
+    font-size: 1.2em;
+    margin: 0 0 0 12px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+#Agregar-productos input{
+    display:block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right:25px;
+    width: 95%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+
+#categoria{
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 1.2em;
+    padding: 5px 2px;
+    margin: 0 0 0 12px;
+    cursor: pointer;
+    width:30%;
+    display: inline;
+    text-align: left;
+}
+
+#boton-agregar{
+    width: 30%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif; 
+    margin-left: 10px;
+    display: inline-block;
+}
+
+/*-----------------------tabla eliminar--------------------------------------*/
+
+
+#tabla-eliminar{
+    margin: 35px auto 30px;
+    width: 80%;
+}
+
+.boton-eliminar{
+ padding: 0 5px;
+ font-size: 1em;
+ font-family: 'Hind Guntur', sans-serif;
+ background-color:#f93a3afd;
+ font-weight: bold;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.boton-eliminar:hover{
+    background: red;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+
+
+
+/*-------------------------menu inventario-------------------------------*/
+.contenedor-centrado {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+ 
+  
+}
+
+#tabla-menu{
+    width: 60%;
+    margin:80px auto 30px;
+    padding: 30px;
+    background-color:white;
+    box-shadow: inset  3em -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+
+#boton-menu, #tabla-menu a{
+    width: 40%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif;  
+    text-decoration: none; 
+}
+
+#boton-menu:hover, #tabla-menu a:hover, #boton-volver:hover, #boton-volver2:hover, #boton-modificar:hover, #boton-volver3:hover, #boton-agregar:hover {
+    background: #033E8C;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+
+
+/*---------------------------------formulario modificar productos-----------------------------------------*/
+
+#formulario-modif{
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+#formulario-modif label{
+    display: block;
+    font-size: 1.2em;
+    margin: 0 0 0 12px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+#formulario-modif input{
+    display:block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right:25px;
+    width: 95%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+
+#boton-modificar{
+    width: 40%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif; 
+    margin-left: 13px;
+}
+
+#formularioModificar{
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;  
+}
+
+#formularioModificar label{
+    display: block;
+    font-size: 1.2em;
+    margin: 0 0 0 12px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+#formularioModificar input{
+    display:block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right:25px;
+    width: 95%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+
+#nueva_categoria{
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 1.2em;
+    padding: 5px 2px;
+    margin: 0 0 0 12px;
+    cursor: pointer;
+    width:40%;
+    display: inline;
+    text-align: left;
+}
+
+#guardar-cambios{
+    width: 30%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif; 
+    margin-left: 13px;
+}
+
+#boton-cancelar{
+    width: 30%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif; 
+    margin-left: 13px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+#boton-volver{
+    width: 30%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif; 
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#boton-volver2{
+    width: 10%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif; 
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px; 
+}
+
+#boton-volver3{
+    width: 10%;
+    padding: 10px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #056CF2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hind Guntur', sans-serif; 
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 133px; 
+}
+
+/*----------------formulario busquedas--------------------------------------------------*/
+#form-filtrar {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;    
+}
+
+#form-filtrar label{
+    display: block;
+    font-size: 1.2em;
+    margin: 0 0 0 12px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+#form-filtrar input{
+    display:block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right:25px;
+    width: 95%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+
